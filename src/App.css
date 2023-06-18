@@ -43,6 +43,7 @@ body {
     height: 580px;
     color: #75d1e9;
     font-family: MyFont;
+    font-size: 24px;
 }
 
 .button {
@@ -125,6 +126,11 @@ body {
 @media only screen and (max-width: 600px) {
     .card {
         width: 80%;
-        height: 30%;
+        height: 40%;
+        margin-bottom: 300px;
+    }
+
+    .button {
+        margin-bottom: 10px;
     }
 }
